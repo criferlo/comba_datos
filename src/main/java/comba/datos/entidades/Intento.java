@@ -33,6 +33,7 @@ public class Intento {
 	private float precision_disparo;
 	private float velocidad_disparo;
 	private float tiempo_respuesta;
+	private String tipo_recepcion;
 	
 	
 	@JoinColumn(name="usuario_id")
@@ -144,6 +145,22 @@ public class Intento {
 
 	public void setFecha_at(Date fecha_at) {
 		this.fecha_at = fecha_at;
+	}
+
+	public float getPrecision_disparo() {
+		return precision_disparo;
+	}
+
+	public void setPrecision_disparo(float precision_disparo) {
+		this.precision_disparo = precision_disparo;
+	}
+
+	public String getTipo_recepcion() {
+		return tipo_recepcion;
+	}
+
+	public void setTipo_recepcion(String tipo_recepcion) {
+		this.tipo_recepcion = tipo_recepcion;
 	}
 	
 	
