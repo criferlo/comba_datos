@@ -8,7 +8,7 @@
 	<name>comba.datos Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -30,6 +30,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.34</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>5.0.1</version>
 		</dependency>
 
 	</dependencies>
